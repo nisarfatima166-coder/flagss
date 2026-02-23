@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;   /* Vertical layout */
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+/* Common Flag Style */
+.flag {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Ukraine */
+.ukraine .top {
+  background-color: #0057B7;
+  height: 50%;
+}
+.ukraine .bottom {
+  background-color: #FFD700;
+  height: 50%;
+}
+
+/* Armenia */
+.armenia div {
+  height: 33.33%;
+}
+.armenia .red { background-color: #D90012; }
+.armenia .blue { background-color: #0033A0; }
+.armenia .orange { background-color: #F2A800; }
+
+/* Belarus (Red & Green Only) */
+.belarus .top-red {
+  background-color: #C8313E;
+  height: 65%;
+}
+.belarus .bottom-green {
+  background-color: #00A650;
+  height: 35%;
+}
